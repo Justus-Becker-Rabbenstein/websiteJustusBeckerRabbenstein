@@ -1,11 +1,14 @@
 /* border-box default  */
 * {
     box-sizing: border-box;
+    border-radius: 5%;
 }
 
 :root {
     /* Box Trouleshooting var; comment if not neccessary  */
-     /*--solidBox: solid 5px black; */
+     /*--solidBox: solid 5px black;*/
+
+     /* backgroundColor for Boxes */
      --backgroundColorOne: beige;
      --backgroundColorTwo: burlywood;
 }
@@ -81,6 +84,10 @@ body {
     margin-bottom: 2%;
     margin-left: 2%;
     background-color: var(--backgroundColorTwo);
+
+    display: grid;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 100px 100px 100px;
 }
 /* Box: AboutYourself  */
 .Box-AboutYourself {
@@ -114,4 +121,25 @@ body {
 /*image-props*/
 .image-props {
     border-radius: 45%;
+    width: 80%;
+}
+
+/* Link Grid */
+.linkOne {
+    grid-column-start: 1; 
+    grid-column-end: 1; 
+    grid-row-start: 1; 
+    grid-row-end: 1;
+}
+.linkTwo {
+    grid-column-start: 2; 
+    grid-column-end: 2; 
+    grid-row-start: 2; 
+    grid-row-end: 2;
+}
+.linkThree {
+    grid-column-start: 3; 
+    grid-column-end: 3; 
+    grid-row-start: 3; 
+    grid-row-end: 3;
 }
