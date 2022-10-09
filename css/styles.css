@@ -3,23 +3,115 @@
     box-sizing: border-box;
 }
 
+:root {
+    /* Box Trouleshooting var; comment if not neccessary  */
+     /*--solidBox: solid 5px black; */
+     --backgroundColorOne: beige;
+     --backgroundColorTwo: burlywood;
+}
+
+/* Default Tags */
+body {
+    font-family: Century Gothic;
+}
+
+/* Box Classes */
+/* Box: parent  */
+.Box-Parent {
+    border: var(--solidBox);
+    width: 100%;
+    margin: 1%;
+    border-radius: 2%;
+    background-color: ghostwhite;
+}
 /* Box: Name  */
-.Box-Name {}
+.Box-Name {
+    border: var(--solidBox);
+    width: 45%;
+    float: left;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    background-color: var(--backgroundColorOne);
+}
 /* Box: Navbar  */
-.Box-Name {}
+.Box-Navbar {
+    border: var(--solidBox);
+    width: 45%;
+    float: right;
+    margin-bottom: 2%;
+    background-color: var(--backgroundColorOne);
+}
 /* Box: Photo */
-.Box-Name {}
+.Box-Photo {
+    border: var(--solidBox);
+    width: 45%;
+    float: left;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    background-color: var(--backgroundColorTwo);
+}
 /* Box: Tags  */
-.Box-Name {}
+.Box-Tags {
+    border: var(--solidBox);
+    width: 45%;
+    float: right;
+    margin-bottom: 2%;
+    background-color: var(--backgroundColorTwo);
+}
 /* Box: left: Contact  */
-.Box-Name {}
+.Box-Left-Contact {
+    border: var(--solidBox);
+    width: 45%;
+    float: left;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    background-color: var(--backgroundColorOne);
+}
 /* Box: right: Contact  */
-.Box-Name {}
+.Box-Right-Contact {
+    border: var(--solidBox);
+    width: 45%;
+    float: right;
+    margin-bottom: 2%;
+    background-color: var(--backgroundColorOne);
+}
 /* Box: LinkUrls  */
-.Box-Name {}
+.Box-LinkUrls {
+    border: var(--solidBox);
+    margin-bottom: 2%;
+    margin-left: 2%;
+    background-color: var(--backgroundColorTwo);
+}
 /* Box: AboutYourself  */
-.Box-Name {}
+.Box-AboutYourself {
+    border: var(--solidBox);
+    width: 45%;
+    float: left;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    background-color: var(--backgroundColorOne);
+}
 /* Box: CV  */
-.Box-Name {}
+.Box-CV {
+    border: var(--solidBox);
+    width: 45%;
+    float: right;
+    background-color: var(--backgroundColorOne);
+}
 /* Box: Footer  */
-.Box-Name {}
+.Box-Footer {
+    border: var(--solidBox);
+    float: left;
+    margin-left: 2%;
+    background-color: var(--backgroundColorTwo);
+}
+/* Float Divider */
+.float-divider {
+    clear:both;
+}
+/* Box Classes End */
+
+/*image-props*/
+.image-props {
+    border-radius: 45%;
+}
