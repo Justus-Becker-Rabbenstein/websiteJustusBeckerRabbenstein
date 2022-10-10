@@ -1,0 +1,145 @@
+/* border-box default  */
+* {
+    box-sizing: border-box;
+    border-radius: 5%;
+}
+
+:root {
+    /* Box Trouleshooting var; comment if not neccessary  */
+     /*--solidBox: solid 5px black;*/
+
+     /* backgroundColor for Boxes */
+     --backgroundColorOne: beige;
+     --backgroundColorTwo: burlywood;
+}
+
+/* Default Tags */
+body {
+    font-family: Century Gothic;
+}
+
+/* Box Classes */
+/* Box: parent  */
+.Box-Parent {
+    border: var(--solidBox);
+    width: 100%;
+    margin: 1%;
+    border-radius: 2%;
+    background-color: ghostwhite;
+}
+/* Box: Name  */
+.Box-Name {
+    border: var(--solidBox);
+    width: 45%;
+    float: left;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    background-color: var(--backgroundColorOne);
+}
+/* Box: Navbar  */
+.Box-Navbar {
+    border: var(--solidBox);
+    width: 45%;
+    float: right;
+    margin-bottom: 2%;
+    background-color: var(--backgroundColorOne);
+}
+/* Box: Photo */
+.Box-Photo {
+    border: var(--solidBox);
+    width: 45%;
+    float: left;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    background-color: var(--backgroundColorTwo);
+}
+/* Box: Tags  */
+.Box-Tags {
+    border: var(--solidBox);
+    width: 45%;
+    float: right;
+    margin-bottom: 2%;
+    background-color: var(--backgroundColorTwo);
+}
+/* Box: left: Contact  */
+.Box-Left-Contact {
+    border: var(--solidBox);
+    width: 45%;
+    float: left;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    background-color: var(--backgroundColorOne);
+}
+/* Box: right: Contact  */
+.Box-Right-Contact {
+    border: var(--solidBox);
+    width: 45%;
+    float: right;
+    margin-bottom: 2%;
+    background-color: var(--backgroundColorOne);
+}
+/* Box: LinkUrls  */
+.Box-LinkUrls {
+    border: var(--solidBox);
+    margin-bottom: 2%;
+    margin-left: 2%;
+    background-color: var(--backgroundColorTwo);
+
+    display: grid;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+}
+/* Box: AboutYourself  */
+.Box-AboutYourself {
+    border: var(--solidBox);
+    width: 45%;
+    float: left;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    background-color: var(--backgroundColorOne);
+}
+/* Box: CV  */
+.Box-CV {
+    border: var(--solidBox);
+    width: 45%;
+    float: right;
+    background-color: var(--backgroundColorOne);
+}
+/* Box: Footer  */
+.Box-Footer {
+    border: var(--solidBox);
+    float: left;
+    margin-left: 2%;
+    background-color: var(--backgroundColorTwo);
+}
+/* Float Divider */
+.float-divider {
+    clear:both;
+}
+/* Box Classes End */
+
+/*image-props*/
+.image-props {
+    border-radius: 45%;
+    width: 80%;
+}
+
+/* Link Grid */
+.linkOne {
+    grid-column-start: 1; 
+    grid-column-end: 1; 
+    grid-row-start: 1; 
+    grid-row-end: 1;
+}
+.linkTwo {
+    grid-column-start: 2; 
+    grid-column-end: 2; 
+    grid-row-start: 2; 
+    grid-row-end: 2;
+}
+.linkThree {
+    grid-column-start: 3; 
+    grid-column-end: 3; 
+    grid-row-start: 3; 
+    grid-row-end: 3;
+}
