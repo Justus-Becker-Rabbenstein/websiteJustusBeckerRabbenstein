@@ -47,7 +47,8 @@ body {
 /* Box: Photo */
 .Box-Photo {
   border: var(--solidBox);
-  width: 45%;
+  width: 30%;
+  height: 30%;
   float: left;
   margin-bottom: 2%;
   margin-left: 2%;
