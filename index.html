@@ -11,19 +11,20 @@
     </head>
 
     <body>
-      <div class="Box-Parent">
-        <section class="Box-Name">Justus Becker-Rabbenstein</section>
+      <!-- navbar -->
+      <header class="navbar">
+        <p class="navbar__title">Justus Becker-Rabbenstein</p>
+        <nav>
+          <ul class="navbar__menu">
+            <li><a href="#ID-Contact">Kontakt</a></li>
+            <li><a href="#">Biografie</a></li>
+          </ul>
+        </nav>
+      </header>
 
-        <!-- navbar -->
-        <header>
-          <nav class="Box-Navbar">
-            <a href="#ID-Contact">Kontakt</a>
-            <a href="#">Biografie</a>
-          </nav>
-        </header>
-
+      <section class="maincontent">
         <!-- image -->
-        <section class="Box-Photo">
+        <section class="Box-Child">
           <figure>
             <img
               src="https://avatars.githubusercontent.com/u/43116175?v=4"
@@ -36,7 +37,7 @@
 
         <!-- Tags -->
 
-        <section class="Box-Tags">
+        <section class="Box-Child">
           <h5>Interessen</h5>
           <ul>
             <li>IT</li>
@@ -51,10 +52,10 @@
         <div class="float-divider"></div>
 
         <!-- Contact: left -->
-        <section class="Box-Left-Contact" id="ID-Contact">Num: 000000</section>
+        <section class="Box-Child" id="ID-Contact">Num: 000000</section>
 
         <!-- Contact: right -->
-        <section class="Box-Right-Contact">
+        <section class="Box-Child">
           Mail: herrjustusbeckerrabbenstein@langedomainname.de
         </section>
 
@@ -63,7 +64,7 @@
         <button></button>
 
         <!-- Links -->
-        <section class="Box-LinkUrls">
+        <section class="Box-Child">
           <h2 class="linkOne">Links</h2>
           <a href="#" class="linkTwo">
             <img
@@ -88,22 +89,21 @@
         <div class="float-divider"></div>
 
         <!-- About me -->
-        <section class="Box-AboutYourself">
+        <section class="Box-Child">
           <h2>About me</h2>
           <p>Lorem Ipsum</p>
         </section>
 
         <!-- CV -->
-        <section class="Box-CV">
+        <section class="Box-Child">
           <h2>CV</h2>
           <p>Lorem Ipsum</p>
         </section>
+      </section>
+      <!-- float divider -->
+      <div class="float-divider"></div>
 
-        <!-- float divider -->
-        <div class="float-divider"></div>
-
-        <footer class="Box-Footer">Footer-test</footer>
-      </div>
+      <footer class="Box-Child">Footer-test</footer>
     </body>
   </main>
 </html>
