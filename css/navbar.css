@@ -1,0 +1,21 @@
+.navbar {
+    border: var(--troubleshootingBorder);
+    display: flex;
+    background: linear-gradient(antiquewhite, burlywood);
+  }
+  .navbar > nav {
+    width: 100%;
+  }
+  .navbar__menu {
+    border: var(--troubleshootingBorder);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  .navbar__title {
+    border: var(--troubleshootingBorder);
+    width: 100%;
+  }

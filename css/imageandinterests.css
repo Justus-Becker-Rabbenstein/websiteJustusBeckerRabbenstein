@@ -1,0 +1,19 @@
+.imageandinterests {
+    border: var(--troubleshootingBorder);
+    display: flex
+  }
+  
+  .imageandinterests__image {
+    border: var(--troubleshootingBorder);
+    width: 50%;
+  }
+  .imageandinterests__imageprops {
+    border: var(--troubleshootingBorder);
+    width: 30%;
+    height: 30%;
+  }
+  
+  .imageandinterests__interests {
+    border: var(--troubleshootingBorder);
+    width: 50%;
+  }

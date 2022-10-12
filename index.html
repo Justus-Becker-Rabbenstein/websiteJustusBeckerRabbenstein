@@ -8,6 +8,8 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Webseite von Justus Becker-Rabbenstein</title>
       <link rel="stylesheet" href="css/styles.css" />
+      <link rel="stylesheet" href="css/navbar.css">
+      <link rel="stylesheet" href="css/imageandinterests.css">
     </head>
 
     <body>
@@ -16,20 +18,22 @@
         <p class="navbar__title">Justus Becker-Rabbenstein</p>
         <nav>
           <ul class="navbar__menu">
-            <li><a href="#ID-Contact">Kontakt</a></li>
+            <li><a href="#">Kontakt</a></li>
             <li><a href="#">Biografie</a></li>
           </ul>
         </nav>
       </header>
 
       <section class="maincontent">
+
         <!-- image -->
-        <section class="Box-Child">
+        <section class="imageandinterests">
+        <section class="imageandinterests__image">
           <figure>
             <img
               src="https://avatars.githubusercontent.com/u/43116175?v=4"
               alt="Photo of me"
-              class="image-props"
+              class="imageandinterests__imageprops"
             />
             <figcaption>Ein Bild von mir</figcaption>
           </figure>
@@ -37,7 +41,7 @@
 
         <!-- Tags -->
 
-        <section class="Box-Child">
+        <section class="imageandinterests__interests">
           <h5>Interessen</h5>
           <ul>
             <li>IT</li>
@@ -47,21 +51,15 @@
             <li>PC Spiele</li>
           </ul>
         </section>
+      </section>
 
-        <!-- float divider -->
-        <div class="float-divider"></div>
-
-        <!-- Contact: left -->
-        <section class="Box-Child" id="ID-Contact">Num: 000000</section>
-
-        <!-- Contact: right -->
-        <section class="Box-Child">
-          Mail: herrjustusbeckerrabbenstein@langedomainname.de
+        <!-- Contact -->
+        <section class="contact">
+          <p class="contact__items">Mail: herrjustusbeckerrabbenstein@langedomainname.de</p>
+          <p>Num: 000000</p>
+          <p>Fax</p>
+          <p>Meta</p>
         </section>
-
-        <!-- float divider -->
-        <div class="float-divider"></div>
-        <button></button>
 
         <!-- Links -->
         <section class="Box-Child">

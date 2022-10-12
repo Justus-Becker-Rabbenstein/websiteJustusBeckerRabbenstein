@@ -5,6 +5,7 @@
 
 :root {
   /* Troubleshooting Box Variable */
+   --troubleshootingBorder: solid black 3px;
 }
 /* Default Tags */
 body {
@@ -13,52 +14,19 @@ body {
   padding-left: 10%;
   padding-right: 10%;
 }
-
-/* Box Classes */
-/* Box: parent  */
-
-.navbar {
-  display: flex;
-  border: solid black 5px;
-  background: linear-gradient(antiquewhite, burlywood);
-}
-.navbar > nav {
-  width: 100%;
-}
-.navbar__menu {
-  display: flex;
-  width: 100%;
-  border: solid black 5px;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-
-.navbar__title {
-  width: 100%;
-  border: solid black 5px;
-}
-
 .maincontent {
+  border: var(--troubleshootingBorder);
   background: radial-gradient(antiquewhite, burlywood);
 }
 
-.Box-Child {
-  border: var(--solidBox);
-  width: 45%;
-  margin-bottom: 2%;
-  margin-left: 2%;
-  background-color: var(--backgroundColorOne);
+.contact {
+  --troubleshootingBorder: solid black 3px;
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
-/* Float Divider */
-.float-divider {
-  clear: both;
-}
-/* Box Classes End */
 
-/*image-props*/
-.image-props {
-  border-radius: 45%;
-  width: 80%;
+.contact__items {
+  --troubleshootingBorder: solid black 3px;
+  background-color: hotpink;
 }
