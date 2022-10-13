@@ -1,0 +1,10 @@
+.contact {
+  border: var(--troubleshootingBorder);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contact__items {
+  border: var(--troubleshootingBorder);
+}

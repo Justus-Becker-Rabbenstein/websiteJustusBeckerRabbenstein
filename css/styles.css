@@ -5,7 +5,7 @@
 
 :root {
   /* Troubleshooting Box Variable */
-   --troubleshootingBorder: solid black 3px;
+  --troubleshootingBorder: solid black 3px;
 }
 /* Default Tags */
 body {
@@ -17,16 +17,4 @@ body {
 .maincontent {
   border: var(--troubleshootingBorder);
   background: radial-gradient(antiquewhite, burlywood);
-}
-
-.contact {
-  --troubleshootingBorder: solid black 3px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.contact__items {
-  --troubleshootingBorder: solid black 3px;
-  background-color: hotpink;
 }

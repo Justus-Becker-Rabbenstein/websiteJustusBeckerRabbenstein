@@ -1,0 +1,8 @@
+.links {
+  border: var(--troubleshootingBorder);
+  display: flex;
+  justify-content: space-evenly;
+}
+.links__items {
+  border: var(--troubleshootingBorder);
+}
