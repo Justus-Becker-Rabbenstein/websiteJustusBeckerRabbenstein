@@ -1,0 +1,16 @@
+.aboutmecv {
+    border: var(--troubleshootingBorder);
+    display: grid;
+    grid-template-rows: 3;
+    grid-template-columns: 1;
+  }
+  .aboutmecv_aboutme {
+    border: var(--troubleshootingBorder);
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .aboutmecv_cv {
+    border: var(--troubleshootingBorder);
+    grid-column: 2;
+    grid-row: 1;
+  }
