@@ -9,8 +9,8 @@
   }
   .imageandinterests__imageprops {
     border: var(--troubleshootingBorder);
-    width: 30%;
-    height: 30%;
+    max-width: 20vw;
+    max-width: 20vh;
   }
   
   .imageandinterests__interests {

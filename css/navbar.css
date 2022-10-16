@@ -2,6 +2,8 @@
   border: var(--troubleshootingBorder);
   display: flex;
   background: linear-gradient(antiquewhite, burlywood);
+  border-bottom: 1px goldenrod;
+  border-style: outset;
 }
 .navbar > nav {
   width: 100%;
