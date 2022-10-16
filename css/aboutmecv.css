@@ -1,15 +1,15 @@
-.aboutmecv {
+.aboutmeandcv {
     border: var(--troubleshootingBorder);
     display: grid;
     grid-template-rows: 3;
     grid-template-columns: 1;
   }
-  .aboutmecv_aboutme {
+  .aboutmeandcv__aboutme {
     border: var(--troubleshootingBorder);
     grid-column: 1;
     grid-row: 1;
   }
-  .aboutmecv_cv {
+  .aboutmeandcv__cv {
     border: var(--troubleshootingBorder);
     grid-column: 2;
     grid-row: 1;
