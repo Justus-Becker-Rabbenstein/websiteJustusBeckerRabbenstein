@@ -5,4 +5,6 @@
 }
 .links__items {
   border: var(--troubleshootingBorder);
+  background: linear-gradient(Silver, WhiteSmoke);
+  border: 3px inset;
 }

@@ -1,0 +1,6 @@
+.footer {
+  border: var(--troubleshootingBorder);
+  background: linear-gradient(burlywood, antiquewhite);
+  border-bottom: 1px goldenrod;
+  border-style: inset;
+}
