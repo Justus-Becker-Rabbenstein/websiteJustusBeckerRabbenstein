@@ -13,6 +13,8 @@
   list-style: none;
   flex-wrap: wrap;
   gap: 10px;
+  background-image: url(../assets/images/1454771477.svg);
+  border: inset maroon;
 }
 .footer__item1 {
   border: var(--troubleshootingBorder);
