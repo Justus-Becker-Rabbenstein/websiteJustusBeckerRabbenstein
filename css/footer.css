@@ -6,3 +6,36 @@
   border-bottom-right-radius: 10%;
   border-bottom-left-radius: 10%;
 }
+.footer > ul {
+  display: grid;
+  grid-template-rows: 1;
+  grid-template-columns: 6;
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.footer__item1 {
+  border: var(--troubleshootingBorder);
+  grid-column: 1;
+  grid-row: 1;
+}
+.footer__item2 {
+  border: var(--troubleshootingBorder);
+  grid-column: 2;
+  grid-row: 1;
+}
+.footer__item3 {
+  border: var(--troubleshootingBorder);
+  grid-column: 3;
+  grid-row: 1;
+}
+.footer__item4 {
+  border: var(--troubleshootingBorder);
+  grid-column: 5;
+  grid-row: 1;
+}
+.footer__item5 {
+  border: var(--troubleshootingBorder);
+  grid-column: 6;
+  grid-row: 1;
+}
