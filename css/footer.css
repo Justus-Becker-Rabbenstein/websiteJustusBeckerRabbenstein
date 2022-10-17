@@ -3,4 +3,6 @@
   background: linear-gradient(burlywood, antiquewhite);
   border-bottom: 1px goldenrod;
   border-style: inset;
+  border-bottom-right-radius: 10%;
+  border-bottom-left-radius: 10%;
 }

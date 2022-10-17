@@ -6,6 +6,6 @@
 }
 .links__items {
   border: var(--troubleshootingBorder);
-  background: linear-gradient(Silver, WhiteSmoke);
-  border: 3px inset;
+  background-image: url(../assets/images/1454771477.svg);
+  border: 3px inset maroon;
 }

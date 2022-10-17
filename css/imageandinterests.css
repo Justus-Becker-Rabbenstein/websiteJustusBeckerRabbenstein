@@ -1,21 +1,21 @@
 .imageandinterests {
-    border: var(--troubleshootingBorder);
-    display: flex
-  }
-  
-  .imageandinterests__image {
-    border: var(--troubleshootingBorder);
-    width: 50%;
-  }
-  .imageandinterests__imageprops {
-    border: var(--troubleshootingBorder);
-    max-width: 20vw;
-    max-width: 20vh;
-    border-radius: 10%;
-    border: 10px double wheat;
-  }
-  
-  .imageandinterests__interests {
-    border: var(--troubleshootingBorder);
-    width: 50%;
-  }
+  border: var(--troubleshootingBorder);
+  display: flex;
+}
+
+.imageandinterests__image {
+  border: var(--troubleshootingBorder);
+  width: 50%;
+}
+.imageandinterests__imageprops {
+  border: var(--troubleshootingBorder);
+  max-width: 20vw;
+  max-width: 20vh;
+  border-radius: 10%;
+  border: 3px outset maroon;
+}
+
+.imageandinterests__interests {
+  border: var(--troubleshootingBorder);
+  width: 50%;
+}

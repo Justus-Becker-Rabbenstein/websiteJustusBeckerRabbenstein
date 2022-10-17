@@ -13,7 +13,7 @@
 
 :root {
   /* Troubleshooting Box Variable */
-  --troubleshootingBorder: solid black 3px;
+  /* --troubleshootingBorder: solid black 3px; */
 }
 /* Default Tags */
 body {
@@ -21,6 +21,10 @@ body {
   width: 100%;
   padding-left: 10%;
   padding-right: 10%;
+}
+header {
+  border-top-right-radius: 10%;
+  border-top-left-radius: 10%;
 }
 .maincontent {
   border: var(--troubleshootingBorder);
