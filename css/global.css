@@ -1,31 +1,30 @@
 /* imports */
-@import 'navbar.css';
-@import 'imageandinterests.css';
-@import 'contact.css';
-@import 'links.css';
-@import 'aboutmecv.css';
-@import 'footer.css';
+@import "navbar.css";
+@import "imageandinterests.css";
+@import "contact.css";
+@import "links.css";
+@import "aboutmecv.css";
+@import "footer.css";
 
 /* border-box default  */
 * {
-    box-sizing: border-box;
-  }
-  
-  :root {
-    /* Troubleshooting Box Variable */
-    /*--troubleshootingBorder: solid black 3px;*/
-  }
-  /* Default Tags */
-  body {
-    font-family: Century Gothic;
-    width: 100%;
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-  .maincontent {
-    border: var(--troubleshootingBorder);
-    background: radial-gradient(antiquewhite, burlywood);
-    border-bottom: 1px goldenrod;
-    border-style: ridge;
-  }
-  
+  box-sizing: border-box;
+}
+
+:root {
+  /* Troubleshooting Box Variable */
+  /* --troubleshootingBorder: solid black 3px; */
+}
+/* Default Tags */
+body {
+  font-family: Century Gothic;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.maincontent {
+  border: var(--troubleshootingBorder);
+  background: radial-gradient(antiquewhite, burlywood);
+  border-bottom: 1px goldenrod;
+  border-style: ridge;
+}

@@ -12,10 +12,15 @@
   border: var(--troubleshootingBorder);
   display: flex;
   width: 100%;
-  align-items: center;
   justify-content: space-evenly;
-  flex-wrap: wrap;
   list-style-type: none;
+}
+.navbar__menu > li {
+  border: var(--troubleshootingBorder);
+  width: 40%;
+  background: linear-gradient(Silver, WhiteSmoke);
+  border: 3px inset;
+  text-align: center;
 }
 
 .navbar__title {
@@ -25,11 +30,10 @@
 
 .navbar__items {
   border: var(--troubleshootingBorder);
-  background: linear-gradient(Silver, WhiteSmoke);
-  border: 3px inset;
+  text-align: center;
   text-decoration: none;
 }
 
 .navbar__items:hover {
   font-size: large;
-  }
+}
