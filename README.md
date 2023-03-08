@@ -1,1 +1,2 @@
-readme for websiteJustusBeckerRabbenstein
+# Tech Stack
+HTML, CSS
